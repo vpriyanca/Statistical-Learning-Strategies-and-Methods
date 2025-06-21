@@ -43,7 +43,7 @@ library(gapminder)
 data(gapminder)
 str(gapminder)
 ```
-## Running the Code
+### Running the Code
 You can run each model independently by section:
 1. Linear regression using lm() to predict life expectancy globally.
 2. Subsetting India data, calculating average life expectancy.
@@ -55,7 +55,7 @@ You can run each model independently by section:
 6. 5-Fold cross-validation using manual fold splitting.
 7. Plotting predicted vs. actual life expectancy.
 
-## Models
+### Models
 **Approach 1**: Global Linear Regression
 Predicts life expectancy using GDP per capita:
 ```
@@ -75,28 +75,28 @@ model <- lm(lifeExp ~ gdpPercap, data = train)
     - 5-fold CV implemented for both models
     - Evaluated on RMSE and R²
 
- ## Evaluation Metrics 
+ ### Evaluation Metrics 
  
 | Model             | R² (Mean) | RMSE (Average) |
 |------------------|-----------|----------------|
 | Linear Regression | 0.2986    | ~10.7          |
 | Decision Tree     | 0.2986    | ~7.9           |
 
- ## Visualizations
+ ### Visualizations
 The following plots help interpret model results:
 - **Life Expectancy Distribution**: Histogram and boxplots by continent
 - **GDP vs. Life Expectancy**: Global scatterplot
 - **Trend Over Time**: Life expectancy vs. year colored by continent
 - **Predicted vs. Actual**: For both Linear and Tree models
 
-## Custom Functions
+### Custom Functions
 The analysis makes use of utility code snippets for:
 - Manual 5-fold cross-validation
 - Feature filtering by correlation
 - Model evaluation metrics
 - Plotting helper functions
 
-## Key Learnings
+### Key Learnings
 - GDP per capita has a strong linear relationship with life expectancy.
 - Simple linear models can give high interpretability but limited prediction accuracy.
 - Cross-validation provides better generalization insights than a single test/train split.
