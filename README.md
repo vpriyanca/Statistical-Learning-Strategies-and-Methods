@@ -65,15 +65,15 @@ model <- lm(lifeExp ~ gdpPercap, data = train)
 	- R²: 0.34
 
 **Approach 2**: Country-Specific Predictions (India)
-- Predicts life expectancy using features: year, pop, gdpPercap, avg_lifeExp
-- Models used:
+- **Predicts life expectancy using features**: year, pop, gdpPercap, avg_lifeExp
+- **Models used**:
   - Linear Regression
   - Decision Tree
   - Ridge Regression
   - Lasso Regression
-Cross-Validation
-  - 5-fold CV implemented for both models
-  - Evaluated on RMSE and R²
+  - Cross-Validation
+    - 5-fold CV implemented for both models
+    - Evaluated on RMSE and R²
 
  ## Evaluation Metrics 
  
