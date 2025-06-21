@@ -8,15 +8,15 @@ This project applies a range of statistical learning techniques to the Gapminder
 - Simple linear regression to model GDP vs. life expectancy globally.
 - Country-specific prediction (India) using:
   - Linear Regression
-	- Decision Trees
-	- Ridge Regression
-	- Lasso Regression
+  - Decision Trees
+  - Ridge Regression
+  - Lasso Regression
 - Feature selection via correlation matrix.
 - Model performance evaluated using:
   - R-squared
-	- RMSE
+  - RMSE
   - MAE
-	- MAPE
+  - MAPE
 - Cross-validation for generalized model accuracy.
 
 ## Installation
@@ -50,8 +50,8 @@ You can run each model independently by section:
 3. Feature engineering for avg_lifeExp and model input setup.
 4. Implementing:
    - Linear Regression
-	 - Decision Tree (rpart)
-	 - Ridge and Lasso Regression (glmnet)
+   - Decision Tree (rpart)
+   - Ridge and Lasso Regression (glmnet)
 5. 5-Fold cross-validation using manual fold splitting.
 6. Plotting predicted vs. actual life expectancy.
 
