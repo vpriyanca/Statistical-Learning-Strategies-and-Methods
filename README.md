@@ -66,7 +66,7 @@ model <- lm(lifeExp ~ gdpPercap, data = train)
 
 **Approach 2**: Country-Specific Predictions (India)
 - Predicts life expectancy using features: year, pop, gdpPercap, avg_lifeExp
-Models used:
+- Models used:
   - Linear Regression
   - Decision Tree
   - Ridge Regression
