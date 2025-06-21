@@ -52,8 +52,8 @@ You can run each model independently by section:
    - Linear Regression
    - Decision Tree (rpart)
    - Ridge and Lasso Regression (glmnet)
-5. 5-Fold cross-validation using manual fold splitting.
-6. Plotting predicted vs. actual life expectancy.
+6. 5-Fold cross-validation using manual fold splitting.
+7. Plotting predicted vs. actual life expectancy.
 
 ## Models
 **Approach 1**: Global Linear Regression
@@ -66,17 +66,15 @@ model <- lm(lifeExp ~ gdpPercap, data = train)
 
 **Approach 2**: Country-Specific Predictions (India)
 Predicts life expectancy using features:
-	- year, pop, gdpPercap, avg_lifeExp
-
+- year, pop, gdpPercap, avg_lifeExp
 Models used:
-	- Linear Regression
-	- Decision Tree
-	- Ridge Regression
-	- Lasso Regression
-
+- Linear Regression
+- Decision Tree
+- Ridge Regression
+- Lasso Regression
 Cross-Validation
-	- 5-fold CV implemented for both models
-	- Evaluated on RMSE and R²
+- 5-fold CV implemented for both models
+- Evaluated on RMSE and R²
 
  ## Evaluation Metrics 
  
@@ -115,8 +113,8 @@ Feel free to fork the repository and contribute enhancements.
 5. Create a new Pull Request
 
 ## Contact
-**Project Owner**: Priyanka Vyas
-**Email**: vpriyanka.sv@gmail.com
+- **Project Owner**: Priyanka Vyas
+- **Email**: vpriyanka.sv@gmail.com
 
 ## Acknowledgments
 This project was developed as part of the Statistical Learning course. Special thanks to:
